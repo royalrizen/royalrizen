@@ -8,7 +8,7 @@
 - Not a professional coder but I like it as a hobby
 <br>
 
-### Below are stuff I use:
+### Below are the stuff I use:
 
 <br>
 
