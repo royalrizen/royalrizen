@@ -5,7 +5,7 @@
 <br>
 
 - Professional Procrastinator
-- Not a professional coder but I like it as a hobby
+- Not a professional coder but I do coding as a hobby for fun
 <br>
 
 ### Below are the stuff I use:
