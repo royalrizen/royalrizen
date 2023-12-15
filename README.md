@@ -6,9 +6,7 @@
 
 - Professional Procrastinator
 - Not a professional coder but I like it as a hobby
-
 <br>
-
 ### Below are stuff I use:
 
 <br>
@@ -22,11 +20,8 @@
 <br>
 
 <img src="https://lanyard.cnrad.dev/api/918862839316373554?bg=121212&showDisplayName=true&idleMessage=Maybe%20you%20should%20stop%20stalking%20me."/>
-
-<br>
 <br>
 <hr>
 <br>
-
 <img src="https://data-card-for-spotify.herokuapp.com/api/card?user_id=31twwhl4vvyr7cq4b7hgkir6qkpu"/>
 
