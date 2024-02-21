@@ -4,8 +4,8 @@
 
 <br>
 
-- Professional Procrastinator
-- Not a professional coder but I do coding as a hobby for fun
+- Procrastinator
+- Codes for fun
 <br>
 
 ### Below are the stuff I use:
