@@ -19,8 +19,7 @@
 ![Bootstrap](https://img.shields.io/badge/-Bootstrap-000?&logo=Bootstrap)
 
 <br>
-
-<img src="https://lanyard.cnrad.dev/api/918862839316373554?bg=121212&showDisplayName=true&idleMessage=Maybe%20you%20should%20stop%20stalking%20me."/>
+<!-- <img src="https://lanyard.cnrad.dev/api/918862839316373554?bg=121212&showDisplayName=true&idleMessage=Maybe%20you%20should%20stop%20stalking%20me."/> -->
 <br>
 <hr>
 <br>
