@@ -1,14 +1,6 @@
 <h1><img src="https://emojis.slackmojis.com/emojis/images/1531849430/4246/blob-sunglasses.gif?1531849430" width="30"/> Howdy, stranger? I'm Rizen !!!</h1>
 
-### A very little about me:
-
-<br>
-
-- Procrastinator
-- Codes for fun
-<br>
-
-### Below are the stuff I use:
+### I use...
 
 <br>
 
