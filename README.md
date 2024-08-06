@@ -14,3 +14,15 @@ I currently make bots using the `discord.py` library to sharpen my python skills
 ![Bootstrap](https://img.shields.io/badge/-Bootstrap-000?&logo=Bootstrap) ❣️
 
 <br>
+<br>
+
+<div align="center">
+    <img height="200px" src="https://github-readme-stats-api-holic-x.vercel.app/api/top-langs/?username=holic-x&theme=gruvbox_light&layout=compact"/>
+</div>
+
+<br>
+<br>
+
+<div align="center">
+    <img height="200px" src="https://github-readme-streak-stats.herokuapp.com/?user=richard0070"/>
+</div>
