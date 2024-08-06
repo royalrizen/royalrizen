@@ -1,7 +1,7 @@
 <h2><img src="https://emojis.slackmojis.com/emojis/images/1531849430/4246/blob-sunglasses.gif?1531849430" width="30"/> I'm Rizen.</h2>
 
 I currently make bots using the `discord.py` library to sharpen my python skills. Planning on moving to C# soon :)
-
+<br> <br>
 ![Python](https://img.shields.io/badge/-Python-000?&logo=Python)
 ![JavaScript](https://img.shields.io/badge/-JavaScript-000?&logo=JavaScript)
 ![CSS](https://img.shields.io/badge/-CSS-000?&logo=CSS3)
