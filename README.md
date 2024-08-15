@@ -4,7 +4,7 @@
 <br>
 
 ‎ ‎ ‎ ‎ I currently make bots using the `discord.py` library to sharpen my python skills.
-‎ ‎ ‎ ‎ ‎Planning on moving to C# soon :)
+‎ ‎ ‎ ‎ Planning on moving to C# soon :)
 
 ‎ ‎‎ ‎ ![Python](https://img.shields.io/badge/-Python-000?&logo=Python)
 ![JavaScript](https://img.shields.io/badge/-JavaScript-000?&logo=JavaScript)
