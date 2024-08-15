@@ -1,18 +1,20 @@
 <img src="https://i.ibb.co/09SfyGP/Untitled101-20240815095328.png"> ‎ ‎ ‎‎ ‎ <img src="https://cdn.discordapp.com/emojis/805494530551316530.png" width=90 height=90>
 
 <br>
-<br>
 
 ‎ ‎ ‎ ‎ I currently make bots using the `discord.py` library to sharpen my python skills.
 <br>
-‎ ‎ ‎ ‎ Planning on moving to C# soon :)
-
+‎ ‎ ‎ ‎ Planning to learn C# soon for game development :)
+<br>
+<br>
+<br>
 ‎ ‎‎ ‎ ![Python](https://img.shields.io/badge/-Python-000?&logo=Python)
 ![JavaScript](https://img.shields.io/badge/-JavaScript-000?&logo=JavaScript)
 ![CSS](https://img.shields.io/badge/-CSS-000?&logo=CSS3)
 ![HTML](https://img.shields.io/badge/-HTML-000?&logo=HTML5)
 ![Bootstrap](https://img.shields.io/badge/-Bootstrap-000?&logo=Bootstrap)
 
+<br>
 <br>
 <br>
 
