@@ -23,6 +23,17 @@ An 18 yrs old self-taught programmer who is mostly interested in discord bots, a
 
 <br>
 
+# ‎‎‎Github Stats
+
+<br>
+
+<div style="display: flex; flex-wrap: wrap; justify-content: center; align-items: center; gap: 20px;">
+  <img src="https://github-readme-streak-stats.herokuapp.com/?user=royalrizen&theme=dracula&hide_border=true" alt="royalrizen's Streak" style="width: 300px; height: 150px;" />
+  <img src="https://github-readme-stats.vercel.app/api?username=royalrizen&theme=dracula&show_icons=true&hide_border=true&count_private=true" alt="royalrizen's Stats" style="width: 300px; height: 150px;" />
+</div>
+
+<br>
+
 # Social
 
 <br>
@@ -33,13 +44,3 @@ An 18 yrs old self-taught programmer who is mostly interested in discord bots, a
 
 <img src="https://data-card-for-spotify.herokuapp.com/api/card?user_id=31twwhl4vvyr7cq4b7hgkir6qkpu&hide_title=true&hide_top_artists=true&hide_top_tracks=true&limit=1">
 
-<br>
-
-# ‎‎‎Github Stats
-
-<br>
-
-<div style="display: flex; flex-wrap: wrap; justify-content: center; align-items: center; gap: 20px;">
-  <img src="https://github-readme-streak-stats.herokuapp.com/?user=royalrizen&theme=dracula&hide_border=true" alt="royalrizen's Streak" style="width: 300px; height: 150px;" />
-  <img src="https://github-readme-stats.vercel.app/api?username=royalrizen&theme=dracula&show_icons=true&hide_border=true&count_private=true" alt="royalrizen's Stats" style="width: 300px; height: 150px;" />
-</div>
