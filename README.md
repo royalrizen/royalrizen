@@ -27,13 +27,11 @@ An 18 yrs old self-taught programmer who is mostly interested in discord bots, a
 
 <br>
 
-<div style="display: flex; justify-content: center; gap: 10px;">
+<img src="https://lanyard.cnrad.dev/api/918862839316373554?bg=121212&showDisplayName=true&idleMessage=Maybe%20you%20should%20stop%20stalking%20me.">
 
-  <img src="https://lanyard.cnrad.dev/api/918862839316373554?bg=121212&showDisplayName=true&idleMessage=Maybe%20you%20should%20stop%20stalking%20me." style="width: 48%;">
+<br>
 
-  <img src="https://data-card-for-spotify.herokuapp.com/api/card?user_id=31twwhl4vvyr7cq4b7hgkir6qkpu&hide_title=true&hide_top_artists=true&hide_top_tracks=true&limit=1" style="width: 40%; height: 260px; max-height: 500px;">
-
-</div>
+<img src="https://data-card-for-spotify.herokuapp.com/api/card?user_id=31twwhl4vvyr7cq4b7hgkir6qkpu&hide_title=true&hide_top_artists=true&hide_top_tracks=true&limit=1">
 
 <br>
 
