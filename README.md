@@ -22,8 +22,6 @@ An 18 yrs old self-taught programmer who is mostly interested in discord bots, a
 <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=royalrizen&theme=dracula&show_icons=true&hide_border=true&layout=compact" alt="royalrizen's Top Languages" width="350" height="200" />
 
 <br>
-<br>
-<br>
 
 # Social Presence 
 
