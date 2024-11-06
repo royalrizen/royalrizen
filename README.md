@@ -21,8 +21,10 @@
 ‎ ‎ ‎ ‎ ‎ <img src="https://lanyard.cnrad.dev/api/918862839316373554?bg=121212&showDisplayName=true&idleMessage=Maybe%20you%20should%20stop%20stalking%20me."/>
 
 <br>
-<br>
 
+---
+
+<br>
 
 # ‎‎‎ ‎ MY GITHUB STATS  ✨
 
