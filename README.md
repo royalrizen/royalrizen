@@ -40,13 +40,3 @@
 
 ‎ ‎ ‎ ‎ ![richard0070's Stats](https://github-readme-stats.vercel.app/api?username=richard0070&theme=dracula&show_icons=true&hide_border=true&count_private=true)
 
-<br>
-<br>
-‎ ‎ ‎ ‎ <hr>
-<br>
-
-## ‎ ‎ ‎ ‎ Will you join my Discord server? <img src="https://cdn.discordapp.com/emojis/643396044838666240.gif" width=40 height=40>
-
-<br>
-
-‎ ‎ ‎‎  ‎‎‎‎ ‎‎ ‎‎ ‎**https://dsc.gg/melodyyy**
