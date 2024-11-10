@@ -10,7 +10,7 @@ An 18 yrs old self-taught programmer who is mostly interested in discord bots, a
 
 <br>
 
-# Codes in...
+# Loves...
 
 <br> 
 
