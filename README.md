@@ -2,7 +2,7 @@
 
 <br>
 
-An 18 yrs old self-taught programmer who is mostly interested in discord bots, android app development, automations and other cool stuff. Also, never ask me how to center a div. 
+An 18 yrs old self-taught programmer who is mostly interested in discord bots, blender, android app development, automations and other cool stuff. Also, never ask me how to center a div. 
 
 <br>
 
