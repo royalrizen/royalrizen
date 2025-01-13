@@ -5,11 +5,14 @@
 # About Me
 <br>
 
-An 18 yrs old self-taught programmer who is mostly interested in discord bots, blender, android app development, automations and other cool stuff.
+~~An 18 yrs old self-taught programmer who is mostly interested in discord bots, blender, android app development, automations and other cool stuff.~~
+<br>
+<br>
+**👋 Left Coding...**
 
 <br>
 
-# Loves...
+# Loves
 
 <br> 
 
