@@ -1,4 +1,4 @@
-[![Typing SVG](https://readme-typing-svg.demolab.com?font=VT323&size=22&pause=1000&color=00F5F7&vCenter=true&width=600&height=50&lines=heyo%2C+you've+stumbled+upon+my+github+profile.;wow%2C+you're+staying%3F;so+cool.;...;well%2C+you+can+check+some+of+my+repositories+instead+of+staring+at+this+page.;...;weirdo.)](https://git.io/typing-svg)
+[![Typing SVG](https://readme-typing-svg.demolab.com?font=VT323&size=22&pause=1000&color=00F5F7&vCenter=true&width=600&height=50&lines=heyo%2C+you've+stumbled+upon+my+github+profile.;wow%2C+you're+staying%3F;so+cool.;...;well%2C+you+can+check+some+of+my+repositories.;...;weirdo.)](https://git.io/typing-svg)
 
 <br>
 
@@ -17,7 +17,7 @@ hiii, i am a self taught developer who builds random things when bored. /•᷅�
 
 <td style="border: 1px solid #30363D; border-radius: 10px; padding: 10px;">
 <a href="https://discord.com/users/918862839316373554">
-  <img src="https://lanyard.cnrad.dev/api/918862839316373554?bg=0D1117&idleMessage=enough%20stalking%20bro&animatedDecoration=true" alt="Discord Presence"/>
+  <img src="https://lanyard.cnrad.dev/api/918862839316373554?bg=050605&idleMessage=enough%20stalking%20bro&animatedDecoration=true" alt="Discord Presence"/>
 </a>
 </td>
 
@@ -33,6 +33,18 @@ hiii, i am a self taught developer who builds random things when bored. /•᷅�
 
 </tr>
 </table>
+
+</p>
+
+<br>
+
+## <img src="https://capsule-render.vercel.app/api?type=rect&color=0D1117&height=36&text=T%20E%20C%20H%20%20-%20S%20T%20A%20C%20K&fontColor=00F5F7&fontSize=20"/>
+
+<br>
+
+<p align="center">
+
+<img src="https://skillicons.dev/icons?i=python,java,js,html,css,flask,express,mongodb,json" />
 
 </p>
 
