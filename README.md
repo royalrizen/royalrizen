@@ -5,10 +5,10 @@
 ## <img src="https://capsule-render.vercel.app/api?type=rect&color=0D1117&height=36&text=P%20R%20O%20F%20I%20L%20E&fontColor=00F5F7&fontSize=20"/>
 
 ```bash
-self taught developer (full-stack)
-i build random things when bored. /•᷅‎‎•᷄\੭
-                 
+hiii, i am a self taught developer who builds random things when bored. /•᷅‎‎•᷄\੭
 ```
+
+<br>
 
 <p align="center">
 
@@ -27,7 +27,7 @@ i build random things when bored. /•᷅‎‎•᷄\੭
 
 <td>
 <a href="https://data-card-for-spotify.herokuapp.com/card?user_id=31twwhl4vvyr7cq4b7hgkir6qkpu">
-  <img src="https://data-card-for-spotify.herokuapp.com/api/card?user_id=31twwhl4vvyr7cq4b7hgkir6qkpu&limit=3&hide_title=true&hide_top_artists=true&show_border=true&hide_top_tracks=true&hide_recents=true" alt="Spotify"/>
+  <img src="https://data-card-for-spotify.herokuapp.com/api/card?user_id=31twwhl4vvyr7cq4b7hgkir6qkpu&limit=1&hide_title=true&hide_top_artists=true&show_border=true&hide_top_tracks=false&hide_recents=true" alt="Spotify"/>
 </a>
 </td>
 
