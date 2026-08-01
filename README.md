@@ -11,6 +11,6 @@
 ```bash
 20+ | self-taught developer
 builds random things when bored.
-
-contact :: @royalrizen (Discord)
 ```
+
+```contact``` :: ```@royalrizen (Discord)```
