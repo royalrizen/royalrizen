@@ -16,11 +16,11 @@ i build random things when bored. /•᷅‎‎•᷄\੭
 
 <p align="center">
   <a href="https://discord.com/users/918862839316373554">
-    <img src="https://lanyard.cnrad.dev/api/918862839316373554?bg=0E131A&idleMessage=enough%20stalking%20bro&animatedDecoration=true&hideActivity=true" alt="Discord Presence"/>
+    <img src="https://lanyard.cnrad.dev/api/918862839316373554?bg=151B23&idleMessage=enough%20stalking%20bro&animatedDecoration=true&hideActivity=true" alt="Discord Presence"/>
   </a>
   <br>
   <br>
-  <i>ily :3</i>
+  <i>if you want to contact me on discord :3</i>
 </p>
 <br>
 <br>
