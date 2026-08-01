@@ -7,8 +7,17 @@
 ## <img src="https://capsule-render.vercel.app/api?type=rect&color=0D1117&height=36&text=P%20R%20%20O%20F%20I%20L%20E&fontColor=00F5F7&fontSize=28"/>
 
 ```bash
-20+ y/o self taught developer.
-builds random things when bored.
+20+ y/o self taught developer
+builds random things when bored.  /•᷅‎‎•᷄\੭
 ```
-➜ `@royalrizen`
-<img src="https://cdn.simpleicons.org/discord/ffffff" height="16" align="center"/>
+<br>
+
+
+<p align="center">
+  <a href="https://discord.com/users/918862839316373554">
+    <img src="https://lanyard.cnrad.dev/api/918862839316373554?bg=151B23&idleMessage=enough%20stalking%20bro&animatedDecoration=true&hideActivity=true" alt="Discord Presence"/>
+  </a>
+  <br>
+  <br>
+  <i>let's talk :3</i>
+</p>
