@@ -17,7 +17,7 @@ hiii, i am a self taught developer who builds random things when bored. /•᷅�
 
 <td style="border: 1px solid #30363D; border-radius: 10px; padding: 10px;">
 <a href="https://discord.com/users/918862839316373554">
-  <img src="https://lanyard.cnrad.dev/api/918862839316373554?bg=010101&idleMessage=enough%20stalking%20bro&animatedDecoration=true" alt="Discord Presence"/>
+  <img src="https://lanyard.cnrad.dev/api/918862839316373554?bg=0D1117&idleMessage=enough%20stalking%20bro&animatedDecoration=true" alt="Discord Presence"/>
 </a>
 </td>
 
