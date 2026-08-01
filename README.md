@@ -71,3 +71,11 @@ hiii, i am a self taught developer who builds random things when bored. /•᷅�
 </table>
 
 </p>
+
+<br>
+<hr>
+<br>
+
+<p align="center">
+  <img src="https://quotes-github-readme.vercel.app/api?type=horizontal&theme=github_dark&border=true" alt="Random Quote"/>
+</p>
