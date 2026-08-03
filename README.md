@@ -1,7 +1,6 @@
-[![Typing SVG](https://readme-typing-svg.demolab.com?font=VT323&size=28&pause=1000&color=00f557&vCenter=true&width=600&height=50&lines=heyo%2C+you've+stumbled+upon+my+github+profile.;wow%2C+you're+staying%3F;so+cool.;...;well%2C+you+can+check+some+of+my+repositories.;...;weirdo.)](https://git.io/typing-svg)
+[![Typing SVG](https://readme-typing-svg.demolab.com?font=VT323&size=28&pause=1000&color=00f5f7&vCenter=true&width=600&height=50&lines=heyo%2C+you've+stumbled+upon+my+github+profile.;wow%2C+you're+staying%3F;so+cool.;...;well%2C+you+can+check+some+of+my+repositories.;...;weirdo.)](https://git.io/typing-svg)
 <br>
 <br>
-
 <p align="center">
 
 <table align="center">
