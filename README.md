@@ -1,6 +1,16 @@
 [![Typing SVG](https://readme-typing-svg.demolab.com?font=VT323&size=28&pause=1000&color=00f5f7&vCenter=true&width=600&height=50&lines=heyo%2C+you've+stumbled+upon+my+github+profile.;wow%2C+you're+staying%3F;so+cool.;...;well%2C+you+can+check+some+of+my+repositories.;...;weirdo.)](https://git.io/typing-svg)
 <br>
 <br>
+```bash
+$ whoami
+
+name      :: Rizen
+age       :: 20
+languages :: Python, Java, JavaScript
+currently :: learning, building, breaking
+status    :: online
+```
+<br>
 <p align="center">
 
 <table align="center">
