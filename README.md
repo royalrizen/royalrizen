@@ -1,16 +1,6 @@
 [![Typing SVG](https://readme-typing-svg.demolab.com?font=VT323&size=28&pause=1000&color=00f5f7&vCenter=true&width=600&height=50&lines=heyo%2C+you've+stumbled+upon+my+github+profile.;wow%2C+you're+staying%3F;so+cool.;...;well%2C+you+can+check+some+of+my+repositories.;...;weirdo.)](https://git.io/typing-svg)
 <br>
 <br>
-```bash
-$ whoami
-
-name      :: Rizen
-age       :: 20
-languages :: Python, Java, JavaScript
-currently :: learning, building, breaking
-status    :: online
-```
-<br>
 <p align="center">
 
 <table align="center">
@@ -61,22 +51,14 @@ status    :: online
 <tr>
 <td>
 <a href="https://github.com/royalrizen">
-  <img src="https://github-stats-extended.vercel.app/api?username=royalrizen&theme=github_dark&bg_color=0D1117&title_color=00F5F7&text_color=C9D1D9&icon_color=00F5F7"/>
+  <img src="https://github-stats-extended.vercel.app/api?username=royalrizen&theme=github_dark&bg_color=101010&title_color=ff0000&text_color=C9D1D9&icon_color=ff0000"/>
 </a>
 </td>
 
 <td>
-<img src="https://github-readme-streak-stats.herokuapp.com/?user=royalrizen&theme=github-dark&background=0D1117&ring=00F5F7&fire=00F5F7&currStreakLabel=00F5F7"/>
+<img src="https://github-readme-streak-stats.herokuapp.com/?user=royalrizen&theme=github-dark&background=101010&ring=ff0000&fire=ff0000&currStreakLabel=ff0000"/>
 </td>
 </tr>
 </table>
 
-</p>
-
-<br>
-<hr>
-<br>
-
-<p align="center">
-  <img src="https://quotes-github-readme.vercel.app/api?type=horizontal&theme=github_dark&border=true" alt="Random Quote"/>
 </p>
