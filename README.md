@@ -1,9 +1,7 @@
-<div align="left">
-  <img src="https://cdn.discordapp.com/emojis/868012407925137458.webp?animated=true" width="50" align="left">
-  <a href="https://git.io/typing-svg">
-    <img src="https://readme-typing-svg.demolab.com?font=VT323&size=28&pause=1000&color=00f5f7&vCenter=true&width=600&height=50&lines=heyo%2C+you've+stumbled+upon+my+github+profile.;wow%2C+you're+staying%3F;so+cool.;...;well%2C+you+can+check+some+of+my+repositories.;...;weirdo.">
-  </a>
-</div>
+<p>
+  <img src="https://cdn.discordapp.com/emojis/868012407925137458.webp?animated=true" width="100" style="vertical-align: middle;">
+  <img src="https://readme-typing-svg.demolab.com?font=VT323&size=28&pause=1000&color=00f5f7&vCenter=true&width=600&height=50&lines=heyo%2C+you've+stumbled+upon+my+github+profile.;wow%2C+you're+staying%3F;so+cool.;...;well%2C+you+can+check+some+of+my+repositories.;...;weirdo." style="vertical-align: middle;">
+</p>
 
 <br>
 <br>
