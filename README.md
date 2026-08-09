@@ -47,12 +47,12 @@
 <tr>
 <td>
 <a href="https://github.com/royalrizen">
-  <img src="https://github-stats-extended.vercel.app/api?username=royalrizen&theme=github_dark&bg_color=101010&title_color=ff0000&text_color=C9D1D9&icon_color=ff0000"/>
+  <img src="https://github-stats-extended.vercel.app/api?username=royalrizen&theme=tokyonight&bg_color=1A1B27&title_color=70A5FD&text_color=38BDAE&icon_color=70A5FD"/>
 </a>
 </td>
 
 <td>
-<img src="https://github-readme-streak-stats.herokuapp.com/?user=royalrizen&theme=github-dark&background=101010&ring=ff0000&fire=ff0000&currStreakLabel=ff0000"/>
+  <img src="https://github-readme-streak-stats.herokuapp.com/?user=royalrizen&theme=tokyonight" alt="mystreak"/>
 </td>
 </tr>
 </table>
