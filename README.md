@@ -31,8 +31,6 @@
 
 ## <img src="https://capsule-render.vercel.app/api?type=rect&color=0D1117&height=36&text=T%20E%20C%20H%20%20-%20S%20T%20A%20C%20K&fontColor=00f5f7&fontSize=20"/>
 
-<br>
-
 <p align="center">
 
 <img src="https://skillicons.dev/icons?i=python,java,js,html,css,flask,express,mongodb,json" />
@@ -42,8 +40,6 @@
 <br>
 
 ## <img src="https://capsule-render.vercel.app/api?type=rect&color=0D1117&height=36&text=G%20I%20T%20H%20U%20B&fontColor=00f5f7&fontSize=20"/>
-
-<br>
 
 <p align="center">
 
