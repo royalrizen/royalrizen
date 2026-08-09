@@ -31,7 +31,8 @@
 </table>
 
 </p>
-
+<br>
+<hr>
 <br>
 
 ## <img src="https://capsule-render.vercel.app/api?type=rect&color=0D1117&height=36&text=T%20E%20C%20H%20%20-%20S%20T%20A%20C%20K&fontColor=ffffff&fontSize=20"/>
