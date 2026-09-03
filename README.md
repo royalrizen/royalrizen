@@ -12,4 +12,6 @@
 
 <img src="https://skillicons.dev/icons?i=python,java,typescript,javascript,html,css,flask,express,mongodb" />
 
+<br>
+
 *check out my projects! :)*
