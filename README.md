@@ -1,13 +1,14 @@
 # Hello, I'm Rizen! <img src="https://cdn.discordapp.com/emojis/868012407925137458.webp?animated=true" width="32" style="vertical-align: middle;">
 
 <!-- [![royalrizen](https://img.shields.io/badge/Discord-%40royalrizen-5865F2?logo=discord&logoColor=white)](https://discord.com/users/918862839316373554) -->
+<!-- <img src="https://skillicons.dev/icons?i=python,java,typescript,javascript,html,css,flask,express,mongodb" /> -->
 → Self-taught & hobbyist developer.
 <br>
 → I code bots and write scripts in my free time.
 <br>
 → I also like to play piano.
 
-<!-- <img src="https://skillicons.dev/icons?i=python,java,typescript,javascript,html,css,flask,express,mongodb" /> -->
+### I'm good at...
 
 ![Python](https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white)
 ![Java](https://img.shields.io/badge/Java-E76F00?style=for-the-badge&logo=openjdk&logoColor=white)
