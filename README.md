@@ -1,7 +1,6 @@
 # Hello, I'm Rizen! <img src="https://cdn.discordapp.com/emojis/868012407925137458.webp?animated=true" width="32" style="vertical-align: middle;">
 
-[![royalrizen](https://img.shields.io/badge/Discord-%40royalrizen-5865F2?logo=discord&logoColor=white)](https://discord.com/users/918862839316373554)
-
+<!-- [![royalrizen](https://img.shields.io/badge/Discord-%40royalrizen-5865F2?logo=discord&logoColor=white)](https://discord.com/users/918862839316373554) -->
 → Self-taught & hobbyist developer.
 <br>
 → I code bots and write scripts in my free time.
@@ -18,7 +17,5 @@
 ![CSS3](https://img.shields.io/badge/CSS3-3D9DD9?style=for-the-badge&logo=css3&logoColor=white)
 ![Flask](https://img.shields.io/badge/Flask-30343B?style=for-the-badge&logo=flask&logoColor=white)
 ![MongoDB](https://img.shields.io/badge/MongoDB-4DAF6E?style=for-the-badge&logo=mongodb&logoColor=white)
-
-<br>
 
 *check out my projects! :)*
