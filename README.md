@@ -6,7 +6,7 @@
 <br>
 → I code bots and write scripts in my free time.
 <br>
-→ I also like to play piano sometimes.
+→ I also like to play piano.
 
 <br>
 
