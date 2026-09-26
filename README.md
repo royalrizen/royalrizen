@@ -4,7 +4,7 @@
 <!-- <img src="https://skillicons.dev/icons?i=python,java,typescript,javascript,html,css,flask,express,mongodb" /> -->
 → Self-taught & hobbyist developer.
 <br>
-→ I code bots and write scripts in my free time.
+→ Currently learning C and C++
 <br>
 → I also like to play piano.
 
