@@ -8,7 +8,7 @@
 <br>
 → I also like to play piano.
 
-### <img src="https://cdn.discordapp.com/emojis/621790007304126465.png" width="18" style="vertical-align: middle;"> I'm good at... 
+### <img src="https://cdn.discordapp.com/emojis/621790007304126465.png" width="18" style="vertical-align: middle;"> I use... 
 
 ![Python](https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white)
 ![Java](https://img.shields.io/badge/Java-E76F00?style=for-the-badge&logo=openjdk&logoColor=white)
