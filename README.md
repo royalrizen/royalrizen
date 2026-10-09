@@ -4,7 +4,7 @@
 <!--→ Self-taught & hobbyist developer.
 <br>
 → I also like to play piano. -->
-### <!-- <img src="https://cdn.discordapp.com/emojis/621790007304126465.png" width="18" style="vertical-align: middle;"> --> I solve my problems with... 
+### <!-- <img src="https://cdn.discordapp.com/emojis/621790007304126465.png" width="18" style="vertical-align: middle;"> --> I use...
 
 <img src="https://skillicons.dev/icons?i=python,java,c,javascript,html,css,flask,express,mongodb" />
 
