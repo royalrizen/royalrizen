@@ -1,0 +1,95 @@
+<svg xmlns="http://www.w3.org/2000/svg"
+     width="650"
+     height="%%HEIGHT%%"
+     viewBox="0 0 650 %%HEIGHT%%"
+     role="img"
+     aria-labelledby="title desc">
+
+  <title id="title">My Repositories</title>
+  <desc id="desc">Recently updated public GitHub repositories.</desc>
+
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#11151d"/>
+      <stop offset="1" stop-color="#0b0e14"/>
+    </linearGradient>
+
+    <linearGradient id="accent" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0" stop-color="#FF6B81"/>
+      <stop offset="1" stop-color="#FF6B81"/>
+    </linearGradient>
+
+    <style>
+      .roboto {
+        font-family: "Roboto", sans-serif;
+      }
+
+      .sans {
+        font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Arial, sans-serif;
+      }
+
+      .muted {
+        fill: #8b95a7;
+      }
+
+      .repo {
+        fill: #FF6B81;
+        font-size: 16px;
+        font-weight: 650;
+      }
+
+      .small {
+        font-size: 12px;
+      }
+
+      .mono {
+        font-family: monospace;
+      }
+    </style>
+  </defs>
+
+  <rect x="1" y="1"
+        width="648"
+        height="%%HEIGHT_MINUS2%%"
+        rx="16"
+        fill="url(#bg)"
+        stroke="#293241"
+        stroke-width="1.5"/>
+
+  <g class="roboto">
+    <text x="25" y="36"
+          fill="#FF6B81"
+          font-size="12"
+          letter-spacing="2">REPOSITORIES</text>
+
+    <text x="25" y="65"
+          fill="#e7edf5"
+          font-size="24"
+          font-weight="700">My Awesum Public Projects :)</text>
+
+    <text x="625" y="61"
+          text-anchor="end"
+          class="muted"
+          font-size="11">%%COUNT%% repositories</text>
+  </g>
+
+  <line x1="24" y1="82"
+        x2="626" y2="82"
+        stroke="#293241"
+        stroke-opacity="0.5"/>
+
+  %%ROWS%%
+
+  <line x1="24" y1="%%FOOTER_Y%%"
+        x2="626" y2="%%FOOTER_Y%%"
+        stroke="#293241"/>
+
+  <a href="https://github.com/royalrizen?tab=repositories">
+    <text x="625" y="%%FOOTER_Y%%"
+          text-anchor="end"
+          class="mono"
+          fill="#FF6B81"
+          font-size="11">VIEW ALL →</text>
+  </a>
+
+</svg>
