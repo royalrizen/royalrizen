@@ -21,16 +21,47 @@ jobs:
         with:
           python-version: "3.x"
 
+      - name: Show repository structure
+        run: |
+          echo "Working directory:"
+          pwd
+          echo "Repository contents:"
+          ls -la
+          echo "Scripts directory:"
+          ls -la scripts/
+
       - name: Generate repository cards
         env:
           REPO_LIMIT: ${{ vars.REPO_LIMIT }}
           GH_TOKEN: ${{ secrets.GH_TOKEN }}
-        run: python scripts/generate_repos.py
+        run: |
+          python scripts/generate_repos.py
 
-      - name: Commit changes
+      - name: Verify generated file
+        run: |
+          echo "Searching for repos.svg..."
+          find . -type f -name "repos.svg"
+
+          if [ ! -f "./repos.svg" ]; then
+            echo "ERROR: repos.svg does not exist in the repository root."
+            echo "Checking whether it was generated elsewhere..."
+            find . -type f -name "*.svg"
+            exit 1
+          fi
+
+          echo "SUCCESS: repos.svg exists."
+          ls -lh ./repos.svg
+
+      - name: Commit and push changes
         run: |
           git config user.name "github-actions[bot]"
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
-          git add repos.svg
-          git diff --cached --quiet || git commit -m "Update repository cards"
-          git push
+
+          git add ./repos.svg
+
+          if git diff --cached --quiet; then
+            echo "No changes to commit."
+          else
+            git commit -m "Update repository cards"
+            git push
+          fi
