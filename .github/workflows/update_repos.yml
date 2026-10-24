@@ -39,25 +39,25 @@ jobs:
 
       - name: Verify generated file
         run: |
-          echo "Searching for repos.svg..."
-          find . -type f -name "repos.svg"
+          echo "Searching for my_repos.svg..."
+          find . -type f -name "my_repos.svg"
 
-          if [ ! -f "./repos.svg" ]; then
-            echo "ERROR: repos.svg does not exist in the repository root."
+          if [ ! -f "./my_repos.svg" ]; then
+            echo "ERROR: my_repos.svg does not exist in the repository root."
             echo "Checking whether it was generated elsewhere..."
             find . -type f -name "*.svg"
             exit 1
           fi
 
-          echo "SUCCESS: repos.svg exists."
-          ls -lh ./repos.svg
+          echo "SUCCESS: my_repos.svg exists."
+          ls -lh ./my_repos.svg
 
       - name: Commit and push changes
         run: |
           git config user.name "github-actions[bot]"
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
 
-          git add ./repos.svg
+          git add ./my_repos.svg
 
           if git diff --cached --quiet; then
             echo "No changes to commit."
