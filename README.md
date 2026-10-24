@@ -1,10 +1,13 @@
-<!-- # Hello, I'm Rizen! <img src="https://cdn.discordapp.com/emojis/868012407925137458.webp?animated=true" width="32" style="vertical-align: middle;"> -->
+# Hello, I'm Rizen! <img src="https://cdn.discordapp.com/emojis/868012407925137458.webp?animated=true" width="32" style="vertical-align: middle;">
 
 <!-- [![royalrizen](https://img.shields.io/badge/Discord-%40royalrizen-5865F2?logo=discord&logoColor=white)](https://discord.com/users/918862839316373554) -->
 <!--→ Self-taught & hobbyist developer.
 <br>
 → I also like to play piano. -->
-### <!-- <img src="https://cdn.discordapp.com/emojis/621790007304126465.png" width="18" style="vertical-align: middle;"> -->
+
+![My Repositories](./repos.svg)
+
+### Languages I use <!-- <img src="https://cdn.discordapp.com/emojis/621790007304126465.png" width="18" style="vertical-align: middle;"> -->
 <img src="https://skillicons.dev/icons?i=python,java,c,javascript,html,css,flask,express,mongodb" />
 
 <!-- ![Python](https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white)
@@ -16,4 +19,3 @@
 ![Flask](https://img.shields.io/badge/Flask-30343B?style=for-the-badge&logo=flask&logoColor=white)
 ![MongoDB](https://img.shields.io/badge/MongoDB-4DAF6E?style=for-the-badge&logo=mongodb&logoColor=white) -->
 
-*check out my projects! :)*
