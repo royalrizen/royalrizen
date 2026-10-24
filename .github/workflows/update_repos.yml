@@ -6,8 +6,8 @@ on:
     - cron: "0 */6 * * *"
   push:
     paths:
-      - generate_repos.py
-      - card-template.svg
+      - scripts/generate_repos.py
+      - scripts/card-template.svg
       - .github/workflows/update.yml
 
 permissions:
@@ -30,7 +30,7 @@ jobs:
         env:
           REPO_LIMIT: ${{ vars.REPO_LIMIT }}
           GH_TOKEN: ${{ secrets.GH_TOKEN }}
-        run: python generate_repos.py
+        run: python scripts/generate_repos.py
 
       - name: Commit updated SVG
         run: |
