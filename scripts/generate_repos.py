@@ -6,7 +6,7 @@ from xml.sax.saxutils import escape
 import random
 
 USERNAME = "royalrizen"
-LIMIT = max(1, min(int(os.getenv("REPO_LIMIT", "5")), 10))
+LIMIT = max(1, min(int(os.getenv("REPO_LIMIT") or "5"), 10))
 
 LANGUAGE_ICONS = {
     "Python": "python",
