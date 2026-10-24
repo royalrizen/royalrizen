@@ -218,7 +218,7 @@ def main():
         svg = svg.replace(key, value)
 
     script_dir = Path(__file__).resolve().parent
-    output_path = script_dir.parent / "repos.svg"
+    output_path = script_dir.parent / "my_repos.svg"
     output_path.write_text(svg, encoding="utf-8")
 
     print(
