@@ -183,9 +183,10 @@ def main():
 
     for key, value in replacements.items():
         svg = svg.replace(key, value)
-
-    output_path = script_dir / "repos.svg"
-    output_path.write_text(svg, encoding="utf-8")
+    
+    script_dir = Path(__file__).resolve().parent
+    output_path = script_dir.parent / "repos.svg"
+    output_path.write_text(svg, encoding="utf-8")    
 
     print(
         f"Generated repos.svg: showing {len(shown)} "
