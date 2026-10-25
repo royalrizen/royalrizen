@@ -8,7 +8,7 @@ import base64
 from pathlib import Path
 
 USERNAME = os.getenv("GITHUB_USERNAME", "royalrizen")
-REPO_LIMIT = max(1, min(int(os.getenv("REPO_LIMIT", "6")), 12))
+REPO_LIMIT = max(1, min(int(os.getenv("REPO_LIMIT") or "6"), 12))
 
 BG = "#0d1117"
 BORDER = "#21262d"
