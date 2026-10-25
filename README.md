@@ -3,7 +3,7 @@
   <img src="https://img.shields.io/badge/Workout_|_@4:00--5:00_PM-111111?style=flat-square" />
   <img src="https://img.shields.io/badge/Piano_Enthusiast-0a0a0a?style=flat-square" />
   <img src="https://img.shields.io/badge/Medical_Aspirant-FE428E?style=flat-square" />
-  <img src="https://img.shields.io/badge/Discord-@royalrizen-5865F2?style=flat-square&logo=discord&logoColor=white" />
+  <img src="https://img.shields.io/badge/@royalrizen-5865F2?style=flat-square&logo=discord&logoColor=white" />
 </p>
 
 In my free time, I build Android apps, develop Discord bots, and experiment with APIs :)
