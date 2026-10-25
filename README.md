@@ -9,7 +9,7 @@
 In my free time, I build Android apps, develop Discord bots, and experiment with APIs :)
 
 ## 𝚃𝚎𝚌𝚑 𝚂𝚝𝚊𝚌𝚔
-<img src="https://skillicons.dev/icons?i=python,java,c,javascript,html,css,flask,express,mongodb" height="30" />
+<img src="https://skillicons.dev/icons?i=python,java,c,javascript,html,css,flask,express,mongodb,godot,vscode,termux" height="30" />
 
 ## 𝙼𝚢 𝚁𝚎𝚙𝚘𝚜𝚒𝚝𝚘𝚛𝚒𝚎𝚜
 
