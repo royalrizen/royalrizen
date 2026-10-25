@@ -3,6 +3,7 @@ import os
 import random
 import urllib.request
 import urllib.parse
+import urllib.error
 import html
 import base64
 from pathlib import Path
@@ -52,25 +53,61 @@ def fetch_repos():
         + "/repos?sort=updated&per_page=100"
     )
 
-    request = urllib.request.Request(
-        url,
-        headers={
-            "Accept": "application/vnd.github+json",
-            "User-Agent": "GitHub-Repo-Cards",
-        },
-    )
+    headers = {
+        "Accept": "application/vnd.github+json",
+        "User-Agent": "GitHub-Repo-Cards",
+    }
 
-    with urllib.request.urlopen(request, timeout=20) as response:
-        repos = json.loads(response.read().decode("utf-8"))
+    # Use a token to increase the GitHub API rate limit.
+    token = os.getenv("GH_TOKEN") or os.getenv("GITHUB_TOKEN")
+
+    if token:
+        headers["Authorization"] = f"Bearer {token}"
+        print("Using authenticated GitHub API.")
+    else:
+        print(
+            "WARNING: No GitHub token found. "
+            "Using the unauthenticated API."
+        )
+
+    request = urllib.request.Request(url, headers=headers)
+
+    try:
+        with urllib.request.urlopen(request, timeout=20) as response:
+            repos = json.loads(response.read().decode("utf-8"))
+
+    except urllib.error.HTTPError as error:
+        if error.code in (403, 429):
+            remaining = error.headers.get("X-RateLimit-Remaining")
+            reset = error.headers.get("X-RateLimit-Reset")
+
+            message = (
+                "GitHub API rate limit exceeded or access forbidden. "
+                f"HTTP status: {error.code}. "
+                f"Remaining requests: {remaining}. "
+                f"Reset timestamp: {reset}. "
+                "Check that GH_TOKEN is configured correctly."
+            )
+
+            raise RuntimeError(message) from error
+
+        if error.code == 401:
+            raise RuntimeError(
+                "GitHub rejected the token. Check your GH_TOKEN secret."
+            ) from error
+
+        raise
 
     repos = [
-        repo for repo in repos
+        repo
+        for repo in repos
         if not repo.get("fork", False)
         and not repo.get("archived", False)
         and repo["name"].casefold() != USERNAME.casefold()
     ]
 
     random.shuffle(repos)
+
     return repos[:REPO_LIMIT]
 
 
@@ -109,6 +146,7 @@ def get_icon(language):
         result = None
 
     ICON_CACHE[icon] = result
+
     return result
 
 
@@ -118,6 +156,7 @@ def make_card(repo, x, y, width=300, height=76):
     raw_description = (
         repo.get("description") or "No description available."
     )
+
     description = raw_description[:43]
 
     if len(raw_description) > 43:
