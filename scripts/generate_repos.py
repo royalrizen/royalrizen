@@ -1,13 +1,19 @@
 import json
 import os
-import urllib.request
-import base64
 import random
+import urllib.request
+import urllib.parse
+import html
+import base64
 from pathlib import Path
-from xml.sax.saxutils import escape
 
-USERNAME = "royalrizen"
-LIMIT = max(1, min(int(os.getenv("REPO_LIMIT") or "5"), 10))
+USERNAME = os.getenv("GITHUB_USERNAME", "royalrizen")
+REPO_LIMIT = max(1, min(int(os.getenv("REPO_LIMIT", "6")), 12))
+
+BG = "#0d1117"
+BORDER = "#21262d"
+MUTED = "#8b949e"
+ACCENT = "#2E8B57"
 
 LANGUAGE_ICONS = {
     "Python": "python",
@@ -41,47 +47,43 @@ ICON_CACHE = {}
 
 def fetch_repos():
     url = (
-        f"https://api.github.com/users/{USERNAME}/repos"
-        "?sort=updated&direction=desc&per_page=100&type=owner"
+        "https://api.github.com/users/"
+        + urllib.parse.quote(USERNAME, safe="")
+        + "/repos?sort=updated&per_page=100"
     )
 
-    headers = {
-        "Accept": "application/vnd.github+json",
-        "User-Agent": "royalrizen-repo-svg-generator",
-    }
+    request = urllib.request.Request(
+        url,
+        headers={
+            "Accept": "application/vnd.github+json",
+            "User-Agent": "GitHub-Repo-Cards",
+        },
+    )
 
-    token = os.getenv("GH_TOKEN") or os.getenv("GITHUB_TOKEN")
-
-    if token:
-        headers["Authorization"] = f"Bearer {token}"
-
-    request = urllib.request.Request(url, headers=headers)
-
-    with urllib.request.urlopen(request, timeout=30) as response:
-        repos = json.load(response)
+    with urllib.request.urlopen(request, timeout=20) as response:
+        repos = json.loads(response.read().decode("utf-8"))
 
     repos = [
         repo for repo in repos
-        if repo.get("name", "").lower() != USERNAME.lower()
+        if not repo.get("fork", False)
+        and not repo.get("archived", False)
+        and repo["name"].casefold() != USERNAME.casefold()
     ]
 
-    return sorted(
-        repos,
-        key=lambda repo: (
-            repo.get("pushed_at") or repo.get("updated_at") or ""
-        ),
-        reverse=True,
-    )
+    random.shuffle(repos)
+    return repos[:REPO_LIMIT]
 
 
 def esc(value):
-    return escape(
-        str(value or ""),
-        {'"': "&quot;", "'": "&apos;"},
-    )
+    return html.escape(str(value or ""), quote=True)
 
 
-def get_icon(icon):
+def get_icon(language):
+    icon = LANGUAGE_ICONS.get(language)
+
+    if not icon:
+        return None
+
     if icon in ICON_CACHE:
         return ICON_CACHE[icon]
 
@@ -93,7 +95,7 @@ def get_icon(icon):
     try:
         request = urllib.request.Request(
             url,
-            headers={"User-Agent": "royalrizen-repo-svg-generator"},
+            headers={"User-Agent": "GitHub-Repo-Cards"},
         )
 
         with urllib.request.urlopen(request, timeout=15) as response:
@@ -103,127 +105,158 @@ def get_icon(icon):
         result = f"data:image/svg+xml;base64,{encoded}"
 
     except Exception as error:
-        print(f"Could not load icon {icon}: {error}")
+        print(f"Could not load icon for {language}: {error}")
         result = None
 
     ICON_CACHE[icon] = result
     return result
 
 
-def make_row(repo, y):
-    name = esc(repo.get("name", "Untitled"))
+def make_card(repo, x, y, width=300, height=76):
+    name = esc(repo["name"])
 
-    description = (
-        repo.get("description") or "No description provided"
-    ).strip()
+    raw_description = (
+        repo.get("description") or "No description available."
+    )
+    description = raw_description[:43]
 
-    if len(description) > 55:
-        description = description[:52].rstrip() + "..."
+    if len(raw_description) > 43:
+        description += "..."
 
     description = esc(description)
 
-    language = repo.get("language") or "Unspecified"
-    icon = LANGUAGE_ICONS.get(language)
-    stars = int(repo.get("stargazers_count") or 0)
+    language_raw = repo.get("language") or "Other"
+    language = esc(language_raw)
 
-    url = esc(
-        repo.get("html_url")
-        or f"https://github.com/{USERNAME}/{name}"
+    stars = repo.get("stargazers_count", 0)
+    forks = repo.get("forks_count", 0)
+    url = esc(repo["html_url"])
+
+    icon_data = get_icon(language_raw)
+
+    if icon_data:
+        language_icon = (
+            f'<image x="{x + 12}" y="{y + 11}" '
+            f'width="15" height="15" '
+            f'href="{icon_data}" '
+            f'xlink:href="{icon_data}"/>'
+        )
+        name_x = x + 33
+    else:
+        language_icon = ""
+        name_x = x + 12
+
+    return f"""
+    <a xlink:href="{url}" target="_blank">
+      <g>
+        <rect
+            x="{x}" y="{y}"
+            width="{width}" height="{height}"
+            rx="6"
+            fill="{BG}"
+            stroke="{BORDER}"
+        />
+
+        {language_icon}
+
+        <text
+            x="{name_x}" y="{y + 23}"
+            fill="{ACCENT}"
+            font-size="12"
+            font-weight="bold"
+            font-family="'Roboto Mono', monospace"
+        >{name}</text>
+
+        <text
+            x="{x + 12}" y="{y + 42}"
+            fill="{MUTED}"
+            font-size="10"
+        >{description}</text>
+
+        <text
+            x="{x + 12}" y="{y + 63}"
+            fill="{MUTED}"
+            font-size="9"
+        >{language}</text>
+
+        <text
+            x="{x + width - 72}" y="{y + 63}"
+            fill="{MUTED}"
+            font-size="9"
+        >
+          <tspan fill="#e3b341">★</tspan> {stars}
+          <tspan>  ⑂ {forks}</tspan>
+        </text>
+      </g>
+    </a>
+    """
+
+
+def generate_svg(repos):
+    columns = 2
+    card_width = 300
+    card_height = 76
+    gap_x = 10
+    gap_y = 10
+    padding = 5
+
+    rows = max(1, (len(repos) + columns - 1) // columns)
+
+    width = (
+        padding * 2
+        + columns * card_width
+        + (columns - 1) * gap_x
     )
 
-    name_width = len(name) * 9.6
-    desc_x = min(390, 35 + name_width + 14)
+    height = (
+        padding * 2
+        + rows * card_height
+        + (rows - 1) * gap_y
+    )
 
-    if icon:
-        icon_data = get_icon(icon)
+    cards = []
 
-        if icon_data:
-            language_element = (
-                f'<image x="45" y="{y+10}" '
-                f'width="17" height="17" '
-                f'href="{icon_data}"/>'
-            )
-        else:
-            language_element = (
-                f'<text x="35" y="{y+24}" '
-                f'class="roboto small" fill="#8b95a7">'
-                f'{esc(language)}</text>'
-            )
-    else:
-        language_element = (
-            f'<text x="35" y="{y+24}" '
-            f'class="roboto small" fill="#8b95a7">'
-            f'{esc(language)}</text>'
+    for index, repo in enumerate(repos):
+        col = index % columns
+        row = index // columns
+
+        x = padding + col * (card_width + gap_x)
+        y = padding + row * (card_height + gap_y)
+
+        cards.append(
+            make_card(repo, x, y, card_width, card_height)
         )
 
-    parts = [
-        f'<a href="{url}">',
-        (
-            f'<rect x="17" y="{y-20}" '
-            f'width="616" height="76" rx="10" '
-            f'fill="#151b25" stroke="#222c3a"/>'
-        ),
-        (
-            f'<rect x="17" y="{y-20}" '
-            f'width="3" height="76" rx="1.5" '
-            f'fill="#FF6B81"/>'
-        ),
-        (
-            f'<text x="35" y="{y}" '
-            f'class="roboto repo">{name}</text>'
-        ),
-        (
-            f'<text x="{desc_x:.1f}" y="{y}" '
-            f'class="sans muted" font-size="11">'
-            f'{description}</text>'
-        ),
-        language_element,
-        (
-            f'<text x="615" y="{y+24}" '
-            f'text-anchor="end" '
-            f'class="roboto small muted">'
-            f'<tspan fill="#FFD43B">★</tspan> {stars}'
-            f'</text>'
-        ),
-        '</a>',
-    ]
-
-    return "\n    ".join(parts)
+    return f"""<svg
+    xmlns="http://www.w3.org/2000/svg"
+    xmlns:xlink="http://www.w3.org/1999/xlink"
+    width="{width}"
+    height="{height}"
+    viewBox="0 0 {width} {height}"
+>
+    {"".join(cards)}
+</svg>
+"""
 
 
 def main():
     repos = fetch_repos()
-    shown = random.sample(repos, min(LIMIT, len(repos)))
 
-    height = 100 + len(shown) * 85 + 35
+    if not repos:
+        raise RuntimeError(
+            "No eligible public repositories found."
+        )
 
-    script_dir = Path(__file__).resolve().parent
-    template_path = script_dir / "card-template.svg"
-    svg = template_path.read_text(encoding="utf-8")
-
-    rows = "\n  ".join(
-        make_row(repo, 108 + i * 85)
-        for i, repo in enumerate(shown)
-    )
-
-    replacements = {
-        "%%HEIGHT%%": str(height),
-        "%%HEIGHT_MINUS2%%": str(height - 2),
-        "%%COUNT%%": str(len(repos)),
-        "%%ROWS%%": rows,
-        "%%FOOTER_Y%%": str(height - 18),
-    }
-
-    for key, value in replacements.items():
-        svg = svg.replace(key, value)
+    svg = generate_svg(repos)
 
     script_dir = Path(__file__).resolve().parent
-    output_path = script_dir.parent / "my_repos.svg"
+    output_path = script_dir.parent / "repo_card.svg"
+
     output_path.write_text(svg, encoding="utf-8")
 
     print(
-        f"Generated repos.svg: showing {len(shown)} "
-        f"of {len(repos)} eligible repositories."
+        f"Generated {output_path} with "
+        f"{len(repos)} random repositories."
     )
 
 
