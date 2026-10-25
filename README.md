@@ -12,4 +12,4 @@ In my free time, I build Android apps, develop Discord bots, and experiment with
 <img src="https://skillicons.dev/icons?i=python,java,c,javascript,html,css,flask,express,mongodb,godot,vscode,termux" height="30" />
 
 ## 𝙼𝚢 𝚁𝚎𝚙𝚘𝚜𝚒𝚝𝚘𝚛𝚒𝚎𝚜
-![My Repos](./repo_card.svg)
+![My Repos](./my_repo_card.svg)
