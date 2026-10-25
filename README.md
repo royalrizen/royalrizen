@@ -1,5 +1,7 @@
 # Hello, I'm Rizen! <img src="https://cdn.discordapp.com/emojis/868012407925137458.webp?animated=true" width="32" style="vertical-align: middle;">
 
+oi, are you stalking me?
+
 ![Repositories](./my_repos.svg)
 
 ### Tech Stack <!-- <img src="https://cdn.discordapp.com/emojis/621790007304126465.png" width="18" style="vertical-align: middle;"> -->
