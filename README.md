@@ -1,11 +1,21 @@
-# Hello, I'm Rizen! <img src="https://cdn.discordapp.com/emojis/868012407925137458.webp?animated=true" width="32" style="vertical-align: middle;">
+# 𝙷𝚎𝚢 𝚝𝚑𝚎𝚛𝚎, 𝙸'𝚖 𝚁𝚒𝚣𝚎𝚗! <img src="https://cdn.discordapp.com/emojis/868012407925137458.webp?animated=true" width="32" style="vertical-align: middle;">
+<p>
+  <img src="https://img.shields.io/badge/Workout_|_@4:00--5:00_PM-111111?style=flat-square" />
+  <img src="https://img.shields.io/badge/Piano_Enthusiast-0a0a0a?style=flat-square" />
+  <img src="https://img.shields.io/badge/Medical_Aspirant-2E8B57?style=flat-square" />
+  <img src="https://img.shields.io/badge/Discord-@royalrizen-5865F2?style=flat-square&logo=discord&logoColor=white" />
+</p>
 
-oi, are you stalking me?
+In my free time, I build Android apps, develop Discord bots, and experiment with APIs :)
 
-![Repositories](./my_repos.svg)
+## 𝚃𝚎𝚌𝚑 𝚂𝚝𝚊𝚌𝚔
+<img src="https://skillicons.dev/icons?i=python,java,c,javascript,html,css,flask,express,mongodb" height="30" />
 
-### Tech Stack <!-- <img src="https://cdn.discordapp.com/emojis/621790007304126465.png" width="18" style="vertical-align: middle;"> -->
-<img src="https://skillicons.dev/icons?i=python,java,c,javascript,html,css,flask,express,mongodb" />
+## 𝙼𝚢 𝚁𝚎𝚙𝚘𝚜𝚒𝚝𝚘𝚛𝚒𝚎𝚜
+
+
+
+
 
 <!-- ![Python](https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white)
 ![Java](https://img.shields.io/badge/Java-E76F00?style=for-the-badge&logo=openjdk&logoColor=white)
