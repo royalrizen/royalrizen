@@ -101,9 +101,7 @@ def fetch_repos():
     repos = [
         repo
         for repo in repos
-        if not repo.get("fork", False)
-        and not repo.get("archived", False)
-        and repo["name"].casefold() != USERNAME.casefold()
+        if repo["name"].casefold() != USERNAME.casefold()
     ]
 
     random.shuffle(repos)
