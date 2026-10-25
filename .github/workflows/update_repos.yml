@@ -48,22 +48,22 @@ jobs:
         run: |
           echo "Searching for repo_card.svg..."
 
-          if [ ! -f "./repo_card.svg" ]; then
-            echo "ERROR: repo_card.svg does not exist in the repository root."
+          if [ ! -f "./my_repo_card.svg" ]; then
+            echo "ERROR: my_repo_card.svg does not exist in the repository root."
             echo "Searching for generated SVG files..."
             find . -type f -name "*.svg"
             exit 1
           fi
 
-          echo "SUCCESS: repo_card.svg exists."
-          ls -lh ./repo_card.svg
+          echo "SUCCESS: my_repo_card.svg exists."
+          ls -lh ./my_repo_card.svg
 
       - name: Commit and push changes
         run: |
           git config user.name "github-actions[bot]"
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
 
-          git add ./repo_card.svg
+          git add ./my_repo_card.svg
 
           if git diff --cached --quiet; then
             echo "No changes to commit."
