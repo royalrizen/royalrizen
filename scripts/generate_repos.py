@@ -287,7 +287,7 @@ def main():
     svg = generate_svg(repos)
 
     script_dir = Path(__file__).resolve().parent
-    output_path = script_dir.parent / "repo_card.svg"
+    output_path = script_dir.parent / "my_repo_card.svg"
 
     output_path.write_text(svg, encoding="utf-8")
 
