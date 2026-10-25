@@ -13,3 +13,10 @@ In my free time, I build Android apps, develop Discord bots, and experiment with
 
 ## 𝙼𝚢 𝚁𝚎𝚙𝚘𝚜𝚒𝚝𝚘𝚛𝚒𝚎𝚜
 ![My Repos](./my_repo_card.svg)
+
+## 𝙶𝚒𝚝𝚑𝚞𝚋 𝚂𝚝𝚊𝚝𝚜
+![Stats](https://github-readme-stats.vercel.app/api?username=royalrizen&theme=radical&show_icons=true&hide_border=true&count_private=true)
+
+![Top Languages](https://github-readme-stats.vercel.app/api/top-langs/?username=royalrizen&theme=radical&show_icons=true&hide_border=true&layout=compact)
+
+![Streak](https://streak-stats.demolab.com?user=royalrizen&theme=radical&hide_border=true)
