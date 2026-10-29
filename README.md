@@ -9,7 +9,7 @@
 In my free time, I build Android apps, develop Discord bots, and experiment with APIs :)
 
   <a href="https://github.com/royalrizen/YTMusic-Widget">
-    <img src="https://royalrizen.github.io/YTMusic-Widget/listening.svg?v=21" alt="YouTube Music Card" width="350">
+    <img src="https://royalrizen.github.io/YTMusic-Widget/listening.svg?v=22" alt="YouTube Music Card" width="350">
   </a>
 
 ## 𝚃𝚎𝚌𝚑 𝚂𝚝𝚊𝚌𝚔
