@@ -19,8 +19,7 @@ In my free time, I build Android apps, develop Discord bots, and experiment with
 ![My Repos](./my_repo_card.svg)
 
 ## 𝙶𝚒𝚝𝚑𝚞𝚋 𝚂𝚝𝚊𝚝𝚜
-![Stats](https://github-readme-stats.vercel.app/api?username=royalrizen&theme=radical&show_icons=true&hide_border=true&count_private=true)
 
-![Top Languages](https://github-readme-stats.vercel.app/api/top-langs/?username=royalrizen&theme=radical&show_icons=true&hide_border=true&layout=compact)
-
-![Streak](https://streak-stats.demolab.com?user=royalrizen&theme=radical&hide_border=true)
+![GitHub Stats Card](https://ghstats.dev/api/card?username=royalrizen&theme=radical)
+<br>![Top Languages](https://ghstats.dev/api/langs?username=royalrizen&theme=radical&max_langs=12)
+<br>![Contribution Sparkline](https://ghstats.dev/api/sparkline?username=royalrizen&theme=radical&days=30&width=495&height=80)
