@@ -20,4 +20,4 @@ In my free time, I build Android apps, develop Discord bots, and experiment with
 ## 𝚁𝚎𝚙𝚘𝚜𝚒𝚝𝚘𝚛𝚒𝚎𝚜
 ![My Repos](./my_repo_card.svg)
 <br>
-![Contribution Sparkline](https://ghstats.dev/api/sparkline?username=royalrizen&theme=radical&days=30&width=615&height=80) 
+![Contribution Sparkline](https://ghstats.dev/api/sparkline?username=royalrizen&theme=radical&days=30&width=614&height=80) 
