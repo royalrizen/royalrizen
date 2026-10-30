@@ -12,13 +12,12 @@ In my free time, I build Android apps, develop Discord bots, and experiment with
     <img src="https://royalrizen.github.io/YTMusic-Widget/listening.svg?v=26" alt="YouTube Music Card" width="350">
   </a>
   
-<!--  
-## 𝚁𝚎𝚙𝚘𝚜𝚒𝚝𝚘𝚛𝚒𝚎𝚜
-![My Repos](./my_repo_card.svg)
--->
-
 ## 𝙶𝚒𝚝𝚑𝚞𝚋 𝚂𝚝𝚊𝚝𝚜
 
 ![GitHub Stats Card](https://ghstats.dev/api/card?username=royalrizen&theme=radical)
 <br>![Top Languages](https://ghstats.dev/api/langs?username=royalrizen&theme=radical&max_langs=12)
-<br>![Contribution Sparkline](https://ghstats.dev/api/sparkline?username=royalrizen&theme=radical&days=30&width=495&height=80) 
+
+## 𝚁𝚎𝚙𝚘𝚜𝚒𝚝𝚘𝚛𝚒𝚎𝚜
+![My Repos](./my_repo_card.svg)
+<br>
+![Contribution Sparkline](https://ghstats.dev/api/sparkline?username=royalrizen&theme=radical&days=30&width=615&height=80) 
