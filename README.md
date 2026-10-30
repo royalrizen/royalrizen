@@ -11,9 +11,9 @@ In my free time, I build Android apps, develop Discord bots, and experiment with
   <a href="https://github.com/royalrizen/YTMusic-Widget">
     <img src="https://royalrizen.github.io/YTMusic-Widget/listening.svg?v=26" alt="YouTube Music Card" width="350">
   </a>
-<!--
+
 ## 𝚃𝚎𝚌𝚑 𝚂𝚝𝚊𝚌𝚔
-<img src="https://skillicons.dev/icons?i=python,java,c,javascript,html,css,flask,express,mongodb,godot,vscode,termux" height="30" /> -->
+<img src="https://skillicons.dev/icons?i=python,java,c,javascript,html,css,flask,express,mongodb,godot,vscode,termux" height="30" />
 
 ## 𝚁𝚎𝚙𝚘𝚜𝚒𝚝𝚘𝚛𝚒𝚎𝚜
 ![My Repos](./my_repo_card.svg)
