@@ -13,7 +13,7 @@ In my free time, I build Android apps, develop Discord bots, and experiment with
   
 ## 𝙶𝚒𝚝𝚑𝚞𝚋 𝚂𝚝𝚊𝚝𝚜
 
-![GitHub Stats Card](https://ghstats.dev/api/card?username=royalrizen&theme=radical)
+![GitHub Stats Card](https://ghstats.dev/api/card?username=royalrizen&theme=midnight_sakura&hide_title=true&border_radius=8&hide=streak%2Cactive_day)
 
 *check out my projects <3*
 <!-- <br>![Top Languages](https://ghstats.dev/api/langs?username=royalrizen&theme=radical&max_langs=12)
