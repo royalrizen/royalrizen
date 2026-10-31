@@ -5,7 +5,7 @@
   <img src="https://img.shields.io/badge/@royalrizen-5865F2?style=flat-square&logo=discord&logoColor=white" />
 </p>
 
-In my free time, I build Android apps, develop Discord bots, and experiment with APIs :)
+I build Android apps, develop Discord bots, and experiment with APIs :)
 
   <a href="https://github.com/royalrizen/YTMusic-Widget">
     <img src="https://royalrizen.github.io/YTMusic-Widget/listening.svg?v=31" alt="YouTube Music Card" width="350">
