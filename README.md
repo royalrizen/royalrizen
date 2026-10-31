@@ -12,6 +12,8 @@ In my free time, I build Android apps, develop Discord bots, and experiment with
     <img src="https://royalrizen.github.io/YTMusic-Widget/listening.svg?v=28" alt="YouTube Music Card" width="350">
   </a>
   
+  <!--
+  
 ## 𝙶𝚒𝚝𝚑𝚞𝚋 𝚂𝚝𝚊𝚝𝚜
 
 ![GitHub Stats Card](https://ghstats.dev/api/card?username=royalrizen&theme=radical)
