@@ -6,19 +6,20 @@
 </p>
 
 I build Android apps, develop Discord bots, and experiment with APIs :)
+
+![My Skills](https://skillicons.dev/icons?i=java,python,c,go,html,css,vscode,godot,flask&theme=dark)
 <!--
   <a href="https://github.com/royalrizen/YTMusic-Widget">
     <img src="https://royalrizen.github.io/YTMusic-Widget/listening.svg?v=31" alt="YouTube Music Card" width="350">
   </a>
   
-<!--
 ## 𝙶𝚒𝚝𝚑𝚞𝚋 𝚂𝚝𝚊𝚝𝚜
 ![GitHub Stats Card](https://ghstats.dev/api/card?username=royalrizen&theme=midnight_sakura&hide_title=true&border_radius=8&hide=streak%2Cactive_day)
--->
 
-<!-- <br>![Top Languages](https://ghstats.dev/api/langs?username=royalrizen&theme=radical&max_langs=12)
-<!--
+<br>![Top Languages](https://ghstats.dev/api/langs?username=royalrizen&theme=radical&max_langs=12)
+
 ## 𝚁𝚎𝚙𝚘𝚜𝚒𝚝𝚘𝚛𝚒𝚎𝚜
 ![Contribution Sparkline](https://ghstats.dev/api/sparkline?username=royalrizen&theme=radical&days=30&width=400&height=50) 
 <br>
 ![My Repos](./my_repo_card.svg)
+-->
