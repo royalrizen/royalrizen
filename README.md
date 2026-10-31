@@ -6,7 +6,7 @@
 </p>
 
 I build Android apps, develop Discord bots, and experiment with APIs :)
-
+<!--
   <a href="https://github.com/royalrizen/YTMusic-Widget">
     <img src="https://royalrizen.github.io/YTMusic-Widget/listening.svg?v=31" alt="YouTube Music Card" width="350">
   </a>
