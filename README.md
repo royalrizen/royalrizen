@@ -14,7 +14,7 @@ In my free time, I build Android apps, develop Discord bots, and experiment with
 ## 𝙶𝚒𝚝𝚑𝚞𝚋 𝚂𝚝𝚊𝚝𝚜
 
 ![GitHub Stats Card](https://ghstats.dev/api/card?username=royalrizen&theme=radical)
-<br>![Top Languages](https://ghstats.dev/api/langs?username=royalrizen&theme=radical&max_langs=12)
+<!-- <br>![Top Languages](https://ghstats.dev/api/langs?username=royalrizen&theme=radical&max_langs=12)
 <!--
 ## 𝚁𝚎𝚙𝚘𝚜𝚒𝚝𝚘𝚛𝚒𝚎𝚜
 ![Contribution Sparkline](https://ghstats.dev/api/sparkline?username=royalrizen&theme=radical&days=30&width=400&height=50) 
