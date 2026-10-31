@@ -18,6 +18,6 @@ In my free time, I build Android apps, develop Discord bots, and experiment with
 <br>![Top Languages](https://ghstats.dev/api/langs?username=royalrizen&theme=radical&max_langs=12)
 
 ## 𝚁𝚎𝚙𝚘𝚜𝚒𝚝𝚘𝚛𝚒𝚎𝚜
-![My Repos](./my_repo_card.svg)
+![Contribution Sparkline](https://ghstats.dev/api/sparkline?username=royalrizen&theme=radical&days=30&width=400&height=50) 
 <br>
-![Contribution Sparkline](https://ghstats.dev/api/sparkline?username=royalrizen&theme=radical&days=30&width=614&height=80) 
+![My Repos](./my_repo_card.svg)
