@@ -10,7 +10,7 @@ I build Android apps, develop Discord bots, and experiment with APIs :)
 ![My Skills](https://skillicons.dev/icons?i=java,python,c,go,html,css,vscode,godot,flask&theme=dark)
 <!--
   <a href="https://github.com/royalrizen/YTMusic-Widget">
-    <img src="https://royalrizen.github.io/YTMusic-Widget/listening.svg?v=33" alt="YouTube Music Card" width="350">
+    <img src="https://royalrizen.github.io/YTMusic-Widget/listening.svg?v=34" alt="YouTube Music Card" width="350">
   </a>
   
 ## 𝙶𝚒𝚝𝚑𝚞𝚋 𝚂𝚝𝚊𝚝𝚜
